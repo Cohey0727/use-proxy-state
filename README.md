@@ -8,13 +8,13 @@ To install this hook into your React project, use npm or yarn as follows:
 
 ```sh
 # npm
-npm install use-proxy-state
+npm install @cohey0727/react-use-proxy-state
 
 # yarn
-yarn add use-proxy-state
+yarn add @cohey0727/react-use-proxy-state
 
 # pnpm
-pnpm add use-proxy-state
+pnpm add @cohey0727/react-use-proxy-state
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ Import `useProxyState` from the package and use it within your functional React 
 
 ```jsx
 import React from 'react';
-import useProxyState from 'use-proxy-state';
+import useProxyState from '@cohey0727/react-use-proxy-state';
 
 function App() {
   const state = useProxyState({ count: 0 });
