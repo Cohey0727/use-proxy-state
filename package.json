@@ -1,0 +1,30 @@
+{
+  "name": "use-proxy-state",
+  "version": "1.0.0",
+  "description": "`useProxyState` is a custom React hook that utilizes JavaScript Proxies to enable state management with automatic component re-rendering upon state mutation. This hook simplifies state management in React components by creating a proxy around the state object, allowing direct mutations while still triggering component updates.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "publish": "npm publish --access public",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/your-package-name.git"
+  },
+  "keywords": [
+    "react",
+    "react-hooks",
+    "proxy"
+  ],
+  "author": "Kohei Okamoto <ohayousagi.ac.kook0727@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}
